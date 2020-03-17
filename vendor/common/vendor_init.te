@@ -111,3 +111,7 @@ userdebug_or_eng(`
 ')
 
 set_prop(vendor_init, vendor_time_service_prop)
+
+#allow vendor video property
+get_prop(vendor_init, vendor_video_prop)
+set_prop(vendor_init, vendor_sys_video_prop)
